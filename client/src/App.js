@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="apptitle">React Express Starter and family</h1>
+        <h1 className="apptitle">React Express Starter from faysal</h1>
         <Customers/>
       </header>
     </div>

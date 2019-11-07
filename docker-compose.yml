@@ -13,10 +13,8 @@ services:
     build: ./client
     expose:
       - 3000
-      - 35729
     ports:
       - 3003:3000
-      - 35729:35729
     volumes:
       - ./client/src:/client/src
       - ./client/public:/client/public
